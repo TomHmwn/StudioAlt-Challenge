@@ -2,26 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Custom fonts from Studio Alt */
+@font-face {
+  font-family: 'AktivGrotesk-Light';
+  src: url('/fonts/AktivGrotesk-Light.WOFF') format('woff');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'AktivGrotesk-Regular';
+  src: url('/fonts/AktivGrotesk-Regular.WOFF') format('woff');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'AktivGrotesk-Medium';
+  src: url('/fonts/AktivGrotesk-Medium.WOFF') format('woff');
+}
+
+@font-face {
+  font-family: 'AktivGrotesk-Bold';
+  src: url('/fonts/AktivGrotesk-Bold.WOFF') format('woff');
+}
+
+@font-face {
+  font-family: 'Morion-Light';
+  src: url('/fonts/Morion-Light.WOFF') format('woff');
+}
+
+@font-face {
+  font-family: 'Morion-Regular';
+  src: url('/fonts/Morion-Regular.WOFF') format('woff');
+}
+
+@font-face {
+  font-family: 'Morion-UltraLight';
+  src: url('/fonts/Morion-UltraLight.WOFF') format('woff');
 }

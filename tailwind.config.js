@@ -11,7 +11,17 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+
       },
+      fontFamily: {
+        AKLight: ['AktivGrotesk-Light'],
+        AKRegular: ['AktivGrotesk-Regular'],
+        AKMedium: ['AktivGrotesk-Medium'],
+        AKBold: ['AktivGrotesk-Bold'],
+        MorLight: ['Morion-Light'],
+        MorRegular: ['Morion-Regular'],
+        MorUltraLight: ['Morion-UltraLight'],
+      }
     },
   },
   plugins: [],
